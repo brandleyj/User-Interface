@@ -105,6 +105,11 @@ header{
 	padding:100px;
 	width:100%;
 }	
+
+.logo{
+	margin-left:250px;
+}
+
 button{
 	font-size: 10px;
 	margin: 0 auto; 
@@ -112,20 +117,21 @@ button{
 	display: block; 
 	
 }
+nav{
+	margin-right:50px;
+}
 
 nav a{
 	padding:20px;
 	text-decoration: none;
 	color:grey;
+	margin-right: 50px;
 }
 
 .copyright{
 	text-align: center;
 }
 
-head{
-	position:relative;
-}
 title{
   position:absolute;
   right:10px;
@@ -140,14 +146,21 @@ title{
 .paragraphs1{
 	display: inline-block;
 	width: 49%;
+	padding:10px 25px;
 }
 
 .paragraphs2{
 	display: inline-block;
 	width: 32%;
+	padding: 10px;
 }
 
 .headerSpacing{
 	display: inline-block;
+	text-align:center;
 	width:49%;
+}
+
+.middle-img{
+	width:100%;
 }
