@@ -64,3 +64,103 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	box-sizing: border-box;
+}
+
+html{
+	margin:50px;
+}
+
+h1{
+	text-align: center;
+	font-size: 70px;
+	position: relative;
+	vertical-align: center;
+	display: inline-block;
+	margin: 10px
+}
+
+h2{
+	margin-top: 20px
+}
+
+.section1{
+	padding:40px;
+	width: 100%;
+}
+
+.section2{
+	padding:30px;
+	width: 100%
+}
+
+footer{
+	border-top: 1px solid black;
+	margin-bottom: 30px;
+}
+
+header{
+	border-bottom: 1px solid black;
+	padding:100px;
+	width:100%;
+}	
+
+.logo{
+	margin-left:250px;
+}
+
+button{
+	font-size: 10px;
+	margin: 0 auto; 
+	padding: 5px 10px 5px;
+	display: block; 
+	
+}
+nav{
+	margin-right:50px;
+}
+
+nav a{
+	padding:20px;
+	text-decoration: none;
+	color:grey;
+	margin-right: 50px;
+}
+
+.copyright{
+	text-align: center;
+}
+
+title{
+  position:absolute;
+  right:10px;
+  top:10px 
+}
+
+.telephone{
+	margin-top: 15px;
+	margin-bottom: 15px
+}
+
+.paragraphs1{
+	display: inline-block;
+	width: 49%;
+	padding:10px 25px;
+}
+
+.paragraphs2{
+	display: inline-block;
+	width: 32%;
+	padding: 10px;
+}
+
+.headerSpacing{
+	display: inline-block;
+	text-align:center;
+	width:49%;
+}
+
+.middle-img{
+	width:100%;
+}
